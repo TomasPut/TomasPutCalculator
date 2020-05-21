@@ -7,7 +7,7 @@ public class AppMenu {
     private Scanner input = new Scanner(System.in);
 
     public void mainMenu() throws Exception {
-        // TODO
+        
         while (exit != 'n') {
             System.out.println("Simple Java calculator ver. 1.1");
             arithmeticCalculateMenu();
