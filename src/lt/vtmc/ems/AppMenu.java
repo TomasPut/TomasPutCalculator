@@ -67,5 +67,6 @@ public class AppMenu {
                 break;
         }
         //Nothing to add just empty commit
+      //Again nothing to add second empty commit
     }
 }
