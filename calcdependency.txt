@@ -1,0 +1,12 @@
+TomasPutCalc.jar -> C:\Program Files\Java\jdk1.8.0_77\jre\lib\rt.jar
+   lt.vtmc.ems (TomasPutCalc.jar)
+      -> java.io                                            
+      -> java.lang                                          
+      -> java.util                                          
+   org.eclipse.jdt.internal.jarinjarloader (TomasPutCalc.jar)
+      -> java.io                                            
+      -> java.lang                                          
+      -> java.lang.reflect                                  
+      -> java.net                                           
+      -> java.util                                          
+      -> java.util.jar                                      
