@@ -8,7 +8,7 @@ public class AppMenu {
 
     public void mainMenu() throws Exception {
         // TODO
-        while (exit != 'y') {
+        while (exit != 'n') {
             System.out.println("Simple Java calculator ver. 1.1");
             arithmeticCalculateMenu();
             exitMenu();
@@ -44,7 +44,7 @@ public class AppMenu {
         // TODO
         System.out.println("Continue (y/n): ");
         String read = input.next().toLowerCase();
-        char close = read.charAt(10);
+        char close = read.charAt(0);
         switch (close) {
             case 'y':
                 exit = 'n';
