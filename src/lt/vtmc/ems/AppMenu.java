@@ -17,9 +17,17 @@ public class AppMenu {
 
     private void arithmeticCalculateMenu() throws Exception {
         // TODO
-        System.out.print("First number: ");
+    	System.out.print("First number: ");
+		while (!input.hasNextInt()) {
+			System.out.print("First number: ");
+			input.nextLine();
+		}
         int x = Integer.parseInt(input.next());
         System.out.print("Second number: ");
+		while (!input.hasNextInt()) {
+			System.out.print("Second number: ");
+			input.nextLine();
+		}
         int y = Integer.parseInt(input.next());
         System.out.print("Operator: ");
         String op = input.next();
@@ -47,13 +55,16 @@ public class AppMenu {
         char close = read.charAt(0);
         switch (close) {
             case 'y':
-                exit = 'n';
-            case 'n':
                 exit = 'y';
+                return;
+            case 'n':
+                exit = 'n';
                 System.out.println("Good luck!");
+                break;
             default:
                 System.out.println("Wrong symbol!");
                 exit = 'n';
+                break;
         }
     }
 }
