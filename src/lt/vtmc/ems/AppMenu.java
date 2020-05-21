@@ -66,5 +66,6 @@ public class AppMenu {
                 exit = 'n';
                 break;
         }
+        //Nothing to add just empty commit
     }
 }
