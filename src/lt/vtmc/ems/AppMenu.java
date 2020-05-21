@@ -49,7 +49,7 @@ public class AppMenu {
     }
 
     private void exitMenu() {
-        // TODO
+
         System.out.println("Continue (y/n): ");
         String read = input.next().toLowerCase();
         char close = read.charAt(0);
