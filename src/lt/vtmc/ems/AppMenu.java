@@ -16,7 +16,7 @@ public class AppMenu {
     }
 
     private void arithmeticCalculateMenu() throws Exception {
-        // TODO
+    	
     	System.out.print("First number: ");
 		while (!input.hasNextInt()) {
 			System.out.print("First number: ");
