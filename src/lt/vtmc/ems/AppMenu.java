@@ -9,7 +9,7 @@ public class AppMenu {
     public void mainMenu() throws Exception {
         // TODO
         while (exit != 'y') {
-            System.out.println("Simple Java calculator ver. 1.0");
+            System.out.println("Simple Java calculator ver. 1.1");
             arithmeticCalculateMenu();
             exitMenu();
         }
@@ -30,9 +30,9 @@ public class AppMenu {
             z = x + y;
         } else if (op.equals("-")) {
             z = x - y;
-        } else if (op.equals("*")) {
-            z = x / y;
         } else if (op.equals("/")) {
+            z = x / y;
+        } else if (op.equals("*")) {
             z = x * y;
         } else {
             throw new Exception("Operator not recognized");
